@@ -15,6 +15,16 @@ void pat1(int n){
         }
     }
 }
+// *
+// **
+// ***
+// ****
+// *****
+// ****
+// ***
+// **
+// *
+
 void pat2(int n){
     int start=1;
     for(int i=0;i<n;i++){
@@ -27,6 +37,11 @@ void pat2(int n){
     }
     
 }
+// 1
+// 01
+// 101
+// 0101
+// 10101
 
 void pat3(int n){
     int sp=2*(n-1);
@@ -46,6 +61,11 @@ void pat3(int n){
         sp -= 2; 
     }
 }
+// 1        1
+// 12      21
+// 123    321
+// 1234  4321
+// 1234554321
 
 void pat4(int n){
     int count=1;
@@ -56,6 +76,12 @@ void pat4(int n){
         }cout << endl;
     }
 }
+// 1
+// 23
+// 456
+// 78910
+// 1112131415
+
 void pat5(int n){
     for(int i=0;i<n;i++){
         for(char ch='A';ch<='A'+i;ch++){
@@ -64,6 +90,12 @@ void pat5(int n){
         cout << endl;
     }
 }
+// A
+// A B
+// A B C
+// A B C D
+// A B C D E
+
 void pat6(int n){
     for(int i=0;i<n;i++){
         for(char ch='A';ch<='A'+(n-i-1);ch++){
@@ -72,6 +104,11 @@ void pat6(int n){
         cout << endl;
     }
 }
+// A B C D E
+// A B C D
+// A B C
+// A B
+// A
 
 void pat7(int n){
     for(int i=0;i<n;i++){
@@ -82,6 +119,11 @@ void pat7(int n){
         cout << endl;
     }
 }
+// A
+// B B
+// C C C
+// D D D D
+// E E E E E
 
 void pat8(int n){ // alpha pascal pyramid   
     for(int i=0;i<n;i++){
@@ -97,7 +139,11 @@ void pat8(int n){ // alpha pascal pyramid
         }cout << endl;    
     }
 }
-
+//     A
+//    ABC
+//   ABCDC
+//  ABCDEDC
+// ABCDEFEDC
 void pat9(int n){
     for(int i=0;i<n;i++){
         
@@ -107,6 +153,11 @@ void pat9(int n){
         cout << endl;
     }
 }
+// E
+// D E
+// C D E
+// B C D E
+// A B C D E
 
 int main(){
     int n=5;

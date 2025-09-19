@@ -17,6 +17,6 @@ using namespace std;
     }
 
 int main(){
-    cout << evenlyDivides(20) << endl;
+    cout << evenlyDivides(123) << endl;
     return 0;
 }
